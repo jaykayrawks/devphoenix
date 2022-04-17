@@ -7,7 +7,7 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-app.use('/api', router);
+// app.use('/api', router);
 // // add middlewares
 app.use(express.static(path.join(__dirname, "build")));
 app.use((req, res, next) => {

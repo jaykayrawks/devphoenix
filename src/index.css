@@ -35,3 +35,11 @@ main {
 main .navbar {
   background:#e3f2fd;
 }
+main .flexit {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main .waiting {
+  color:#3ec48f;
+}
